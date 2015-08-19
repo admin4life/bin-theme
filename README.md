@@ -1,2 +1,2 @@
 # bin-theme
-Theme for ghost blog
+Theme for my ghost blog based on webkid.io's wbkg theme. All credit for the layout goes to them.

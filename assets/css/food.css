@@ -50,7 +50,7 @@ body * {
 #header .blog-title a:visited,
 #header .blog-title a:hover {
   text-decoration: none;
-  color: #fff;
+  color: #b1e6f5;
   padding: 0;
   font-size:1.7em;
 
@@ -58,7 +58,7 @@ body * {
 
 #header .taglist-wrapper {
   width: 100%;
-  background: rgb(154, 218, 91);
+  background: #ffc43a;
   padding: 0;
 }
 
@@ -82,7 +82,7 @@ body * {
   transition: none;
 }
 #header ul.taglist li:hover {
-  background: #023059;
+  background: #d49500;
   cursor: pointer;
 }
 #header ul.taglist li:hover a {
@@ -104,6 +104,10 @@ body * {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   -o-box-sizing: border-box;
+}
+
+.post-content p {
+  font-size:1.8rem;
 }
 
 #articles, #article {
@@ -226,6 +230,7 @@ body * {
 }
 
 .sidebox .sidebox-title {
+  border-radius:7px 7px 0 0;
   background: #0988a9;
   padding: .5em 1em;
   color: #fff;
@@ -274,7 +279,7 @@ body * {
 }
 
 .social-item.rss {
-  background: #f26522;
+  background: #ff5531;
 }
 .social-item:hover {
   opacity: .8;
@@ -288,7 +293,7 @@ body * {
   background: #023059;
 }
 .social-item.about {
-  background: #f2e52e;
+  background: #ffd165;
 }
 
 .social-item.github {

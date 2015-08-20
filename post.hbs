@@ -75,8 +75,27 @@
                    onclick="window.open(this.href, 'google-plus-share', 'width=490,height=530');return false;">
                     <span class="hidden">Google+</span>
                 </a>
+                <a class="fa fa-pinterest" href="//www.pinterest.com/pin/create/button/" data-pin-do="buttonBookmark" >
+                </a>
             </section>
-
+            <section class="read-next">
+                {{#next_post}}
+                <a class="read-next-story {{#if image}}" style="background-image: url({{image}}){{else}}no-cover{{/if}}" href="{{url}}">
+                    <section class="post">
+                        <h2>{{title}}</h2>
+                        <p>{{excerpt words="19"}}&hellip;</p>
+                    </section>
+                </a>
+                {{/next_post}}
+                {{#prev_post}}
+                <a class="read-next-story prev {{#if image}}" style="background-image: url({{image}}){{else}}no-cover{{/if}}" href="{{url}}">
+                    <section class="post">
+                        <h2>{{title}}</h2>
+                        <p>{{excerpt words="19"}}&hellip;</p>
+                    </section>
+                </a>
+                {{/prev_post}}
+            </section>
         </footer>
 
     </article>

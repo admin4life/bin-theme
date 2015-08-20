@@ -49,7 +49,7 @@
             }
         }
 
-        var $img = $("img").on('load', updateImageWidth);
+        var $img = $(".image-wrapper img").on('load', updateImageWidth);
         function casperFullImg() {
             $img.each(updateImageWidth);
         }

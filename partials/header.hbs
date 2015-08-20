@@ -1,7 +1,12 @@
 {{! The big featured header }}
 <header id="header">
     <nav class="header-nav" {{#if @blog.cover}}style="background-image:url({{@blog.cover}}){{/if}}">
-
+      <div class="icon-holder">
+        <a href="{{@blog.url}}" target="_blank" class="social-item home"><i class="fa fa-home"></i></a>
+        <a href="http://twitter.com/Boxcooking" target="_blank" class="social-item tw"><i class="fa fa-twitter"></i></a>
+        <a href="/rss" target="_blank" class="social-item rss"><i class="fa fa-rss"></i></a>
+        <a href="{{@blog.url}}/about" target="_blank" class="social-item about"><i class="fa fa-info-circle"></i></a>
+      </div>
       <div class="blog-title"><a href="{{@blog.url}}">{{@blog.title}}</a></div>
 
       <!--Change this to customize the navigation-->

@@ -936,7 +936,7 @@ body:not(.post-template) .post-title {
     position: absolute;
     top: 6rem;
     right: 0;
-    width: 140px;
+    width: 16rem;
 }
 
 .post-footer .share a {
@@ -979,6 +979,9 @@ body:not(.post-template) .post-title {
   left:0;
   background: rgba(0,0,0,0.7);
   transition: all 0.5s ease;
+}
+.read-next-story:hover:before{
+  background: rgba(0,0,0,0.85);
 }
 .read-next-story .post{
   position: relative;

@@ -138,6 +138,16 @@ body * {
 .post-img {
   margin-left:1em;
 }
+#article #star {
+  display:inline-block;
+}
+#article #star img {
+  float:left;
+}
+#article #star:after{
+  clear:both;
+}
+
 #articles .post header,
 #articles .post .post-excerpt,
 #articles .post footer {
